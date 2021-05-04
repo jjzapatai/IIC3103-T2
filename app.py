@@ -11,7 +11,7 @@ from schema import *
 app = Flask(__name__)
 basedir = os.path.abspath(os.path.dirname(__file__))
 # Database
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgresql-octagonal-02327')
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://rupocanlbtklmy:21c83df6a6d481b392335ca5304139de3b79507670b69a79b0862f24f6c44e68@ec2-184-73-198-174.compute-1.amazonaws.com:5432/d57dbkpb1ji2h7')
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 # Init db
 db = SQLAlchemy(app)
