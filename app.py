@@ -10,7 +10,7 @@ from base64 import b64encode
 app = Flask(__name__)
 basedir = os.path.abspath(os.path.dirname(__file__))
 # Database
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://rupocanlbtklmy:21c83df6a6d481b392335ca5304139de3b79507670b69a79b0862f24f6c44e68@ec2-184-73-198-174.compute-1.amazonaws.com:5432/d57dbkpb1ji2h7'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://wmeqmcsjydonwf:e851880da121689b69d5885106df18864363c5ce9a8b2fcdb2f8b579f82c6979@ec2-107-22-83-3.compute-1.amazonaws.com:5432/de9rjff6pmnj76'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 # Init db
 db = SQLAlchemy(app)
