@@ -4,7 +4,6 @@ from flask_marshmallow import Marshmallow
 import os
 from base64 import b64encode
 
-from schema import *
 
 
 # INIT
