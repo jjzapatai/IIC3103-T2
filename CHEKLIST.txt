@@ -1,0 +1,12 @@
+##  GET  ##
+
+/artists 
+Obtiene todos los artistas
+
+​/artists​/{artist_id}
+Obtener artista por ID
+
+​/artists​/{artist_id}​/albums
+Obtiene todos los albums del artista
+
+
